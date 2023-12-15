@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600,600,600">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/materialize.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/tooplate.css') }}">
+</head>
+
+
+<header class="p-3">
+      <div class="ml-auto">
+        <a  class="btn btn-outline-primary me-6" href="/login" >Login</a>
+        <a  class="btn btn-warning"href="/register" >Sign-up</a>
+      </div>
+</header>
+
+
+
+<body id="home">
+    <div class="container tm-home-mt tm-home-container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tm-home-center">
+                    <h1 class="tm-site-title">HELLO</h1>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="tm-home-center font-weight-light">
+                    <p class="tm-mb-30">This is a testsite <a href="https://www.linkedin.com/in/imustyk/">Musteata Igor</a>. Let's test it :)</p>
+                    <p class="tm-mb-30">Feel free to modify. Please share it to your friends.</p>
+                    <p>Thank you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row tm-mt-big ">
+        <div class="col-xl-12 text-center font-weight-light">
+            <p class="d-inline-block tm-bg-black white-text py-2 tm-px-5">
+                Practica ODA
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
