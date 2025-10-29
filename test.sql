@@ -39,8 +39,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`userid`, `name`, `email`, `password`) VALUES
-(1, 'denis222', 'britkovdenis@mail.ru', '123'),
-(2, ' denis', 'britcov@mail.ru', '363980f1');
+(1, 'igori123', 'igori123@mail.ru', '123'),
+(2, ' igor', 'igor@mail.ru', '363980f1');
 
 --
 -- Индексы сохранённых таблиц
